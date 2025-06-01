@@ -1,0 +1,28 @@
+
+#navbar {
+  all: unset;
+  background-color: #333;
+  padding: 10px;
+}
+
+
+#navbar li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+  transition: background 0.3s;
+}
+
+
+#navbar a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+ 
+

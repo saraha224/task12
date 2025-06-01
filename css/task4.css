@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.scroll-up {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.scroll-up:hover {
+  opacity: 1;
+}
