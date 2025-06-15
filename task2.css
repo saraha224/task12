@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 2rem auto;
+  max-width: 200px;
+  background: #e0e0e0;
+}
+
+.navbar li {
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar li:last-child {
+  border-bottom: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+@media (min-width: 600px) {
+  .navbar ul {
+    display: flex;
+    max-width: none;
+    margin: 0;
+    background: #2c3e50;
+  }
+  .navbar li {
+    border: none;
+    padding: 1rem 2rem;
+  }
+  .navbar a {
+    color: #fff;
+  }
+}

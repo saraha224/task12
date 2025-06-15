@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.item {
+  flex: 1 1 100%;
+  background: #ccc;
+  text-align: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .item {
+    flex: 1 1 calc(50% - 1rem);
+  }
+}
+
+
+@media (min-width: 900px) {
+  .item {
+    flex: 1 1 calc(33.333% - 1rem);
+  }
+}
+

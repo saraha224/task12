@@ -1,0 +1,23 @@
+.responsive-text p {
+  font-size: 20px;
+  padding: 1rem;
+  background: #f5f5f5;
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+  .responsive-text p {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 950px) {
+  .responsive-text p {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 950px) {
+  .responsive-text p {
+    font-size: 30px;
+  }
+}
